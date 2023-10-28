@@ -1,0 +1,27 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width for slider */
+body {
+  font-family: "Ubuntu", sans-serif;
+  background-color:#f7f7f7 ;
+}
+:root {
+  --primary-color: #001d6b;
+
+  --secondary-color: #22778c;
+
+  --third-color: #1e1f22;
+  
+  --back-color: #f7f7f7;
+
+  --btn-primary: #0887ff;
+  --btn-Secondary: #a7d4ff;
+  
+  --line-primary: #0055a5;
+}
+a.active {
+  border-bottom: 2px solid var(--line-primary);
+}
+
