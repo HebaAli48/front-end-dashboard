@@ -32,9 +32,9 @@ function App() {
           <Route
             path="user/"
             element={
-              <Authentication>
-                <Profile />
-              </Authentication>
+              // <Authentication>
+              <Profile />
+              // </Authentication>
             }
           >
             <Route index element={<Navigate replace to="dashboard" />} />
