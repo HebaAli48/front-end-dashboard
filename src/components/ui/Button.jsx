@@ -18,7 +18,7 @@ const Button = ({
         primary
           ? "bg-btn-primary hover:bg-btn-Secondary"
           : "border-2 border-btn-Secondary hover:bg-btn-primary"
-      } rounded-lg px-2 py-1 text-md text-white transition-all ${className}`}
+      } rounded-lg px-2 py-1 text-md text-white hover:text-primary-color transition-all ${className}`}
     >
       {children}
     </button>
